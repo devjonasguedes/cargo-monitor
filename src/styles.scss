@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --primary-color: #DC5F00;
+  --bg-color: #eee;
+  --text-color: #373A40;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+
+.cargo-table {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  border-color: currentColor;
+}
+
+.cell-right {
+  text-align: right;
+}
